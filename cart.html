@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anita's Store</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light top-nav" style="background-color: #e3f2fd;">
+    <a class="nav-item nav-link" href="./index.html"><img src="./images/clothIcon.png" alt="cloth"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-item nav-link active" href="./index.html">All Product<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link" href="./women.html">Women</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link" href="./men.html">Men</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Email@email.com" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Subscribe</button>
+      </form>
+      <a class="nav-item nav-link" href="./cart.html"><img class="cart-icon" src="./images/cart.png" alt="cart"></a>
+    </div>
+  </nav>
+  <div class="content cart">
+    <h1>Cart</h1>
+    <div class="cart-container">
+      <div class="left">
+        <div class="shipping-info">
+          <p>Shipping fee</p>
+          <p>Buy US$28.00 more to enjoy FREE STANDARD SHIPPING!</p>
+        </div>
+        <div class="cart-table">
+          <p>Item Summary(1)</p>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="first-row" scope="row">
+                  <a class="product-image" href="./details.html"><img class="cart-item" src="images/women/women9.jpg" alt="Skeleton Print Tee"></a>
+                  <p>Skeleton Print Tee</p>
+                  <button type="button" class="btn btn-link">Delete</button>
+                </th>
+                <td>US $10.00</td>
+                <td>1</td>
+                <td>US $10.00</td>
+              </tr>
+              <tr>
+                <th class="first-row" scope="row">
+                  <a class="product-image" href="./details.html"><img class="cart-item" src="images/women/women8.jpg" alt="Skeleton Print Tee"></a>
+                  <p>Black Stripe Tee</p>
+                  <button type="button" class="btn btn-link">Delete</button>
+                </th>
+                <td>US $12.00</td>
+                <td>1</td>
+                <td>US $12.00</td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="right">
+        <div class="summary">
+          <p>Order Summary</p>
+          <h3>US $22.00</h3>
+          <button type="button" class="btn btn-dark checkout-btn">CHECKOUT</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <footer class="bg-light text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: #e3f2fd; margin-top: 10px">
+      <a class="text-dark" href="https://github.com/anita908/Anita-store" target="_blank">https://github.com/anita908/Anita-store</a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
